@@ -8,20 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<form method="post" action="/add">
-        Enter id: <input type="number" name="id" />
-        Enter name: <input type="text" name="name" />
-        <input type="submit" />
-    </form>
-
-<hr />
-<form method="post" action="/byname">
-    Enter name: <input type="text" name="name" />
-    <input type="submit" />
-</form>
-
-
-
-
+${students}
 </body>
 </html>
