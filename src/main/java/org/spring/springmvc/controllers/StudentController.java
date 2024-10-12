@@ -32,7 +32,7 @@ public class StudentController {
 
     @PostMapping("/byname")
     public Model getByName(@RequestParam  String name, Model m) {
-        m.addAttribute("students", repo.findByNameOrderByIdDesc(name));
+        m.addAttribute("students", repo.find_naam_se(name));
         return m;
     }
 }
